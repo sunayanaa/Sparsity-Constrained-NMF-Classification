@@ -1,4 +1,14 @@
-# Program Name: nmf_experiments.py
+# Program Name: nmf_experiments.py 
+# ============================================================
+# DEPRECATED — DO NOT USE FOR REPRODUCTION
+# This script contains known experimental errors corrected
+# in nmf_robustness_revised.py:
+#   1. Clean atoms used KL+mu solver; noisy baseline used
+#      Frobenius+cd solver (inconsistent conditions)
+#   2. Baseline stability curve was approximated, not measured
+# See nmf_robustness_revised.py for the corrected experiment
+# and the point-by-point response to reviewers (R1.4, R1.5) for details.
+# ============================================================
 # Version: 3.0
 # Description: This script implements the proposed 'Sparsity-Constrained NMF' method for
 #              IEEE-SPL submission. It performs:
